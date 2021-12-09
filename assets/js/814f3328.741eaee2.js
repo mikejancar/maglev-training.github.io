@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmaglev_training_github_io=self.webpackChunkmaglev_training_github_io||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Getting Started","permalink":"/blog/2021/12/9/welcome"}]}')}}]);
