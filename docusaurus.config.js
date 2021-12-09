@@ -8,14 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Maglev Training',
   tagline: 'Get it? Super fast train(ing).',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://maglev-training.github.io/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'maglev-training', // Usually your GitHub org/user name.
-  projectName: 'maglev-training', // Usually your repo name.
-
+  projectName: 'maglev-training.github.io', // Usually your repo name.
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
   presets: [
     [
       'classic',
