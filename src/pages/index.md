@@ -6,7 +6,11 @@ Here's the idea: create an open-source reference application. Have the applicati
 
 ## The Application
 
-The application will to support the ongoing learning required to be a software developer.
+The application will to support the ongoing learning required to be a software developer. It will be publicly accessible, in continual "beta", and break often. A more thorough description of the application functionality, and speculative future functionality will be in the documentation.
+
+The user-facing portion of this application will help provide a way for software developers to learn new skills, stay up to date on technology, get some feedback on good resources and helpful tips, etc. from other developers.
+
+The source-code for this application will be another layer of reference, and will feed back into the user-facing portion of the site.
 
 ## The Stack
 
