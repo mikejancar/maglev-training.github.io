@@ -34,3 +34,6 @@ Some principles we will work within:
    - Technical choices will be discussed in issues and pull requests.
    - This site will be used and continually updated to show the current thinking and implementation details.
    - The purpose of this documentation site is to be a reference on how to actually _do_ this kind of work, not just what is happening in the project.
+4. Accessibility
+   - All pages will adhere to the [WCAG 2.1](https://www.w3.org/TR/WCAG21/) recommendations for making web content accessible.
+   - Web content will be regularly audited to ensure WCAG 2.1 compliance, and all new content will be reviewed and tested for accessibility before completing the pull request.
