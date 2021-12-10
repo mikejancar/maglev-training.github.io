@@ -1,0 +1,19 @@
+name: Fork Sync
+
+on:
+  schedule:
+    - cron: 0 3 * * *
+
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: tgymnich/fork-sync@v1.2.1
+        with:
+          # Branch to track
+          head: main
+          # Branch to keep updated
+          base: main      
