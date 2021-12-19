@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: tgymnich/fork-sync@v1.2.1
         with:
-          # Branch to track
+          token: ${{ secrets.ACTION_PAT }}
+          owner: mikejancar
           head: main
-          # Branch to keep updated
           base: main      
